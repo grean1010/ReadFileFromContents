@@ -1,0 +1,55 @@
+                                                                                                    12:37 Thursday, May 21, 2020   5
+
+                                                       The CONTENTS Procedure
+
+              Data Set Name        R2.AGG_2016                                              Observations          318
+              Member Type          DATA                                                     Variables             22 
+              Engine               V9                                                       Indexes               0  
+              Created              05/14/2020 17:01:47                                      Observation Length    328
+              Last Modified        05/14/2020 17:01:47                                      Deleted Observations  0  
+              Protection                                                                    Compressed            NO 
+              Data Set Type                                                                 Sorted                NO 
+              Label                                                                                                  
+              Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                             
+              Encoding             latin1  Western (ISO)                                                             
+
+
+                                                 Engine/Host Dependent Information
+
+      Data Set Page Size          65536                                                                                      
+      Number of Data Set Pages    2                                                                                          
+      First Data Page             1                                                                                          
+      Max Obs per Page            199                                                                                        
+      Obs in First Data Page      185                                                                                        
+      Number of Data Set Repairs  0                                                                                          
+      Filename                    N:\Project\50887_MedicaidAccess\DC1\Task 5\Report 2 (Refresh)\5. Programs\agg_2016.sas7bdat
+      Release Created             9.0401M5                                                                                   
+      Host Created                Linux                                                                                      
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                        #    Variable                  Type    Len    Format    Informat    Label
+
+                        3    ffs_mco_flag              Char     12    $12.      $12.        ffs_mco_flag     
+                       21    num_act2benes             Num       8                                           
+                       12    num_active_providers      Num       8    11.       11.         active_provider  
+                       22    num_any2benes             Num       8                                           
+                       13    num_any_activity          Num       8                                           
+                       19    num_inact2benes           Num       8                                           
+                       10    num_inactive_providers    Num       8    11.       11.         inactive_provider
+                       20    num_lim2benes             Num       8                                           
+                       11    num_limited_providers     Num       8    11.       11.         limited_provider 
+                       18    num_prov2benes            Num       8                                           
+                        9    num_providers             Num       8                                           
+                       16    pct_active_providers      Num       8                                           
+                       17    pct_any_activity          Num       8                                           
+                       14    pct_inactive_providers    Num       8                                           
+                       15    pct_limited_providers     Num       8                                           
+                        8    pop                       Num       8                                           
+                        7    pop2use                   Char     40                                           
+                        6    provider_setting          Char     40                                           
+                        5    spclty_desc               Char     40                                           
+                        4    srv_cat                   Char     40                                           
+                        2    state                     Char     25                                           
+                        1    year                      Num       8                                           

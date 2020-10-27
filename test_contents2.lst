@@ -1,0 +1,361 @@
+                                                                                                    12:37 Thursday, May 21, 2020   1
+
+                                                       The CONTENTS Procedure
+
+                           Data Set Name        ACS.USA_00006                 Observations          0   
+                           Member Type          DATA                          Variables             177 
+                           Engine               V9                            Indexes               0   
+                           Created              03/10/2020 15:44:15           Observation Length    1416
+                           Last Modified        03/10/2020 15:44:15           Deleted Observations  0   
+                           Protection                                         Compressed            NO  
+                           Data Set Type                                      Sorted                NO  
+                           Label                                                                        
+                           Data Representation  WINDOWS_64                                              
+                           Encoding             wlatin1  Western (Windows)                              
+
+
+                                                 Engine/Host Dependent Information
+
+Data Set Page Size          114688                                                                                                  
+Number of Data Set Pages    1                                                                                                       
+First Data Page             1                                                                                                       
+Max Obs per Page            80                                                                                                      
+Obs in First Data Page      0                                                                                                       
+Number of Data Set Repairs  0                                                                                                       
+ExtendObsCounter            YES                                                                                                     
+Filename                    N:\Project\50890_1115_DSC\NJ1\700_Enrollment_impact\T07.710_Build_estimation_framework\BY\Data          
+                            and programs\acs2018\usa_00006.sas7bdat                                                                 
+Release Created             9.0401M3                                                                                                
+Host Created                X64_8PRO                                                                                                
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                 #    Variable     Type    Len    Format          Label
+
+                22    AGE          Num       8    AGE_F.          Age                                                
+                38    ANCESTR1     Num       8    ANCESTR1_F.     Ancestry, first response [general version]         
+                40    ANCESTR2     Num       8    ANCESTR2_F.     Ancestry, second response [general version]        
+                39    ANCESTR1D    Num       8    ANCESTR1D_F.    Ancestry, first response [detailed version]        
+                41    ANCESTR2D    Num       8    ANCESTR2D_F.    Ancestry, second response [detailed version]       
+                23    BIRTHQTR     Num       8    BIRTHQTR_F.     Quarter of birth                                   
+                25    BIRTHYR      Num       8                    Year of birth                                      
+                36    BPL          Num       8    BPL_F.          Birthplace [general version]                       
+                37    BPLD         Num       8    BPLD_F.         Birthplace [detailed version]                      
+                10    CBPERNUM     Num       8                    Original Census Bureau person number in sample unit
+                 4    CBSERIAL     Num       8    13.             Original Census Bureau household serial number     
+                42    CITIZEN      Num       8    CITIZEN_F.      Citizenship status                                 
+                 6    CLUSTER      Num       8    13.             Household cluster for variance estimation          
+                90    DIFFCARE     Num       8    DIFFCARE_F.     Self-care difficulty                               
+                92    DIFFEYE      Num       8    DIFFEYE_F.      Vision difficulty                                  
+                93    DIFFHEAR     Num       8    DIFFHEAR_F.     Hearing difficulty                                 
+                89    DIFFMOB      Num       8    DIFFMOB_F.      Independent living difficulty                      
+                88    DIFFPHYS     Num       8    DIFFPHYS_F.     Ambulatory difficulty                              
+                87    DIFFREM      Num       8    DIFFREM_F.      Cognitive difficulty                               
+                91    DIFFSENS     Num       8    DIFFSENS_F.     Vision or hearing difficulty                       
+                29    DIVINYR      Num       8    DIVINYR_F.      Divorced in the past year                          
+                69    EDUC         Num       8    EDUC_F.         Educational attainment [general version]           
+                70    EDUCD        Num       8    EDUCD_F.        Educational attainment [detailed version]          
+                71    EMPSTAT      Num       8    EMPSTAT_F.      Employment status [general version]                
+                                                                                                    12:37 Thursday, May 21, 2020   2
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                 #    Variable     Type    Len    Format          Label
+
+                72    EMPSTATD     Num       8    EMPSTATD_F.     Employment status [detailed version]               
+                14    FAMSIZE      Num       8    FAMSIZE_F.      Number of own family members in household          
+                13    FAMUNIT      Num       8    FAMUNIT_F.      Family unit membership                             
+                31    FERTYR       Num       8    FERTYR_F.       Children born within the last year                 
+                75    FTOTINC      Num       8                    Total family income                                
+                 8    GQ           Num       8    GQ_F.           Group quarters status                              
+                59    HCOVANY      Num       8    HCOVANY_F.      Any health insurance coverage                      
+                60    HCOVPRIV     Num       8    HCOVPRIV_F.     Private health insurance coverage                  
+                64    HCOVPUB      Num       8    HCOVPUB_F.      Public health insurance coverage                   
+                 5    HHWT         Num       8    11.2            Household weight                                   
+                65    HINSCAID     Num       8    HINSCAID_F.     Health insurance through Medicaid                  
+                66    HINSCARE     Num       8    HINSCARE_F.     Health insurance through Medicare                  
+                61    HINSEMP      Num       8    HINSEMP_F.      Health insurance through employer/union            
+                68    HINSIHS      Num       8    HINSIHS_F.      Health insurance through Indian Health Services    
+                62    HINSPUR      Num       8    HINSPUR_F.      Health insurance purchased directly                
+                63    HINSTRI      Num       8    HINSTRI_F.      Health insurance through TRICARE                   
+                67    HINSVA       Num       8    HINSVA_F.       Health insurance through VA                        
+                34    HISPAN       Num       8    HISPAN_F.       Hispanic origin [general version]                  
+                35    HISPAND      Num       8    HISPAND_F.      Hispanic origin [detailed version]                 
+                77    INCBUS00     Num       8                    Business and farm income, 2000                     
+                84    INCEARN      Num       8                    Total personal earned income                       
+                80    INCINVST     Num       8                    Interest, dividend, and rental income              
+                83    INCOTHER     Num       8                    Other income                                       
+                81    INCRETIR     Num       8                    Retirement income                                  
+                78    INCSS        Num       8                    Social Security income                             
+                82    INCSUPP      Num       8                    Supplementary Security Income                      
+                74    INCTOT       Num       8                    Total personal income                              
+                76    INCWAGE      Num       8                    Wage and salary income                             
+                79    INCWELFR     Num       8                    Welfare (public assistance) income                 
+                73    LABFORCE     Num       8    LABFORCE_F.     Labor force status                                 
+                47    LANGUAGE     Num       8    LANGUAGE_F.     Language spoken [general version]                  
+                48    LANGUAGED    Num       8    LANGUAGED_F.    Language spoken [detailed version]                 
+                27    MARRINYR     Num       8    MARRINYR_F.     Married within the past year                       
+                26    MARRNO       Num       8    MARRNO_F.       Times married                                      
+                24    MARST        Num       8    MARST_F.        Marital status                                     
+                18    MOMLOC       Num       8                    Mother's location in the household                 
+                 9    PERNUM       Num       8                    Person number in sample unit                       
+                11    PERWT        Num       8    11.2            Person weight                                      
+                85    POVERTY      Num       8                    Poverty status                                     
+                52    RACAMIND     Num       8    RACAMIND_F.     Race: American Indian or Alaska Native             
+                53    RACASIAN     Num       8    RACASIAN_F.     Race: Asian                                        
+                54    RACBLK       Num       8    RACBLK_F.       Race: black or African American                    
+                32    RACE         Num       8    RACE_F.         Race [general version]                             
+                33    RACED        Num       8    RACED_F.        Race [detailed version]                            
+                58    RACNUM       Num       8    RACNUM_F.       Number of major race groups                        
+                57    RACOTHER     Num       8    RACOTHER_F.     Race: some other race                              
+                55    RACPACIS     Num       8    RACPACIS_F.     Race: Pacific Islander                             
+                56    RACWHT       Num       8    RACWHT_F.       Race: white                                        
+                19    RELATE       Num       8    RELATE_F.       Relationship to household head [general version]   
+                20    RELATED      Num       8    RELATED_F.      Relationship to household head [detailed version]  
+                12    REPWTP       Num       8                    Person replicate weights [80 variables]            
+                                                                                                    12:37 Thursday, May 21, 2020   3
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                 #    Variable     Type    Len    Format          Label
+
+                98    REPWTP1      Num       8                    Person replicate weight 1                          
+                99    REPWTP2      Num       8                    Person replicate weight 2                          
+               100    REPWTP3      Num       8                    Person replicate weight 3                          
+               101    REPWTP4      Num       8                    Person replicate weight 4                          
+               102    REPWTP5      Num       8                    Person replicate weight 5                          
+               103    REPWTP6      Num       8                    Person replicate weight 6                          
+               104    REPWTP7      Num       8                    Person replicate weight 7                          
+               105    REPWTP8      Num       8                    Person replicate weight 8                          
+               106    REPWTP9      Num       8                    Person replicate weight 9                          
+               107    REPWTP10     Num       8                    Person replicate weight 10                         
+               108    REPWTP11     Num       8                    Person replicate weight 11                         
+               109    REPWTP12     Num       8                    Person replicate weight 12                         
+               110    REPWTP13     Num       8                    Person replicate weight 13                         
+               111    REPWTP14     Num       8                    Person replicate weight 14                         
+               112    REPWTP15     Num       8                    Person replicate weight 15                         
+               113    REPWTP16     Num       8                    Person replicate weight 16                         
+               114    REPWTP17     Num       8                    Person replicate weight 17                         
+               115    REPWTP18     Num       8                    Person replicate weight 18                         
+               116    REPWTP19     Num       8                    Person replicate weight 19                         
+               117    REPWTP20     Num       8                    Person replicate weight 20                         
+               118    REPWTP21     Num       8                    Person replicate weight 21                         
+               119    REPWTP22     Num       8                    Person replicate weight 22                         
+               120    REPWTP23     Num       8                    Person replicate weight 23                         
+               121    REPWTP24     Num       8                    Person replicate weight 24                         
+               122    REPWTP25     Num       8                    Person replicate weight 25                         
+               123    REPWTP26     Num       8                    Person replicate weight 26                         
+               124    REPWTP27     Num       8                    Person replicate weight 27                         
+               125    REPWTP28     Num       8                    Person replicate weight 28                         
+               126    REPWTP29     Num       8                    Person replicate weight 29                         
+               127    REPWTP30     Num       8                    Person replicate weight 30                         
+               128    REPWTP31     Num       8                    Person replicate weight 31                         
+               129    REPWTP32     Num       8                    Person replicate weight 32                         
+               130    REPWTP33     Num       8                    Person replicate weight 33                         
+               131    REPWTP34     Num       8                    Person replicate weight 34                         
+               132    REPWTP35     Num       8                    Person replicate weight 35                         
+               133    REPWTP36     Num       8                    Person replicate weight 36                         
+               134    REPWTP37     Num       8                    Person replicate weight 37                         
+               135    REPWTP38     Num       8                    Person replicate weight 38                         
+               136    REPWTP39     Num       8                    Person replicate weight 39                         
+               137    REPWTP40     Num       8                    Person replicate weight 40                         
+               138    REPWTP41     Num       8                    Person replicate weight 41                         
+               139    REPWTP42     Num       8                    Person replicate weight 42                         
+               140    REPWTP43     Num       8                    Person replicate weight 43                         
+               141    REPWTP44     Num       8                    Person replicate weight 44                         
+               142    REPWTP45     Num       8                    Person replicate weight 45                         
+               143    REPWTP46     Num       8                    Person replicate weight 46                         
+               144    REPWTP47     Num       8                    Person replicate weight 47                         
+               145    REPWTP48     Num       8                    Person replicate weight 48                         
+               146    REPWTP49     Num       8                    Person replicate weight 49                         
+               147    REPWTP50     Num       8                    Person replicate weight 50                         
+               148    REPWTP51     Num       8                    Person replicate weight 51                         
+                                                                                                    12:37 Thursday, May 21, 2020   4
+
+                                                       The CONTENTS Procedure
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                 #    Variable     Type    Len    Format          Label
+
+               149    REPWTP52     Num       8                    Person replicate weight 52                         
+               150    REPWTP53     Num       8                    Person replicate weight 53                         
+               151    REPWTP54     Num       8                    Person replicate weight 54                         
+               152    REPWTP55     Num       8                    Person replicate weight 55                         
+               153    REPWTP56     Num       8                    Person replicate weight 56                         
+               154    REPWTP57     Num       8                    Person replicate weight 57                         
+               155    REPWTP58     Num       8                    Person replicate weight 58                         
+               156    REPWTP59     Num       8                    Person replicate weight 59                         
+               157    REPWTP60     Num       8                    Person replicate weight 60                         
+               158    REPWTP61     Num       8                    Person replicate weight 61                         
+               159    REPWTP62     Num       8                    Person replicate weight 62                         
+               160    REPWTP63     Num       8                    Person replicate weight 63                         
+               161    REPWTP64     Num       8                    Person replicate weight 64                         
+               162    REPWTP65     Num       8                    Person replicate weight 65                         
+               163    REPWTP66     Num       8                    Person replicate weight 66                         
+               164    REPWTP67     Num       8                    Person replicate weight 67                         
+               165    REPWTP68     Num       8                    Person replicate weight 68                         
+               166    REPWTP69     Num       8                    Person replicate weight 69                         
+               167    REPWTP70     Num       8                    Person replicate weight 70                         
+               168    REPWTP71     Num       8                    Person replicate weight 71                         
+               169    REPWTP72     Num       8                    Person replicate weight 72                         
+               170    REPWTP73     Num       8                    Person replicate weight 73                         
+               171    REPWTP74     Num       8                    Person replicate weight 74                         
+               172    REPWTP75     Num       8                    Person replicate weight 75                         
+               173    REPWTP76     Num       8                    Person replicate weight 76                         
+               174    REPWTP77     Num       8                    Person replicate weight 77                         
+               175    REPWTP78     Num       8                    Person replicate weight 78                         
+               176    REPWTP79     Num       8                    Person replicate weight 79                         
+               177    REPWTP80     Num       8                    Person replicate weight 80                         
+                 2    SAMPLE       Num       8    SAMPLE_F.       IPUMS sample identifier                            
+                 3    SERIAL       Num       8                    Household serial number                            
+                21    SEX          Num       8    SEX_F.          Sex                                                
+                17    SFRELATE     Num       8    SFRELATE_F.     Relationship within subfamily                      
+                16    SFTYPE       Num       8    SFTYPE_F.       Subfamily type                                     
+                49    SPEAKENG     Num       8    SPEAKENG_F.     Speaks English                                     
+                 7    STRATA       Num       8    12.             Household strata for variance estimation           
+                15    SUBFAM       Num       8    SUBFAM_F.       Subfamily membership                               
+                50    TRIBE        Num       8    TRIBE_F.        Tribe [general version]                            
+                51    TRIBED       Num       8    TRIBED_F.       Tribe [detailed version]                           
+                96    VET01LTR     Num       8    VET01LTR_F.     Veteran, served 2001 or later                      
+                97    VET90X01     Num       8    VET90X01_F.     Veteran, served 1990-2001                          
+                86    VETDISAB     Num       8    VETDISAB_F.     VA service-connected disability rating             
+                94    VETSTAT      Num       8    VETSTAT_F.      Veteran status [general version]                   
+                95    VETSTATD     Num       8    VETSTATD_F.     Veteran status [detailed version]                  
+                30    WIDINYR      Num       8    WIDINYR_F.      Widowed in the past year                           
+                 1    YEAR         Num       8    YEAR_F.         Census year                                        
+                44    YRIMMIG      Num       8    YRIMMIG_F.      Year of immigration                                
+                28    YRMARR       Num       8                    Year married                                       
+                43    YRNATUR      Num       8    YRNATUR_F.      Year naturalized                                   
+                45    YRSUSA1      Num       8    YRSUSA1_F.      Years in the United States                         
+                46    YRSUSA2      Num       8    YRSUSA2_F.      Years in the United States, intervalled            
+                                                                                                    12:37 Thursday, May 21, 2020   5
+
+                                                       The CONTENTS Procedure
+
+              Data Set Name        R2.AGG_2016                                              Observations          318
+              Member Type          DATA                                                     Variables             22 
+              Engine               V9                                                       Indexes               0  
+              Created              05/14/2020 17:01:47                                      Observation Length    328
+              Last Modified        05/14/2020 17:01:47                                      Deleted Observations  0  
+              Protection                                                                    Compressed            NO 
+              Data Set Type                                                                 Sorted                NO 
+              Label                                                                                                  
+              Data Representation  SOLARIS_X86_64, LINUX_X86_64, ALPHA_TRU64, LINUX_IA64                             
+              Encoding             latin1  Western (ISO)                                                             
+
+
+                                                 Engine/Host Dependent Information
+
+      Data Set Page Size          65536                                                                                      
+      Number of Data Set Pages    2                                                                                          
+      First Data Page             1                                                                                          
+      Max Obs per Page            199                                                                                        
+      Obs in First Data Page      185                                                                                        
+      Number of Data Set Repairs  0                                                                                          
+      Filename                    N:\Project\50887_MedicaidAccess\DC1\Task 5\Report 2 (Refresh)\5. Programs\agg_2016.sas7bdat
+      Release Created             9.0401M5                                                                                   
+      Host Created                Linux                                                                                      
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                        #    Variable                  Type    Len    Format    Informat    Label
+
+                        3    ffs_mco_flag              Char     12    $12.      $12.        ffs_mco_flag     
+                       21    num_act2benes             Num       8                                           
+                       12    num_active_providers      Num       8    11.       11.         active_provider  
+                       22    num_any2benes             Num       8                                           
+                       13    num_any_activity          Num       8                                           
+                       19    num_inact2benes           Num       8                                           
+                       10    num_inactive_providers    Num       8    11.       11.         inactive_provider
+                       20    num_lim2benes             Num       8                                           
+                       11    num_limited_providers     Num       8    11.       11.         limited_provider 
+                       18    num_prov2benes            Num       8                                           
+                        9    num_providers             Num       8                                           
+                       16    pct_active_providers      Num       8                                           
+                       17    pct_any_activity          Num       8                                           
+                       14    pct_inactive_providers    Num       8                                           
+                       15    pct_limited_providers     Num       8                                           
+                        8    pop                       Num       8                                           
+                        7    pop2use                   Char     40                                           
+                        6    provider_setting          Char     40                                           
+                        5    spclty_desc               Char     40                                           
+                        4    srv_cat                   Char     40                                           
+                        2    state                     Char     25                                           
+                        1    year                      Num       8                                           
+                                                                                                    12:37 Thursday, May 21, 2020   6
+
+                                                       The CONTENTS Procedure
+
+                            Data Set Name        WORK.TEST                     Observations          1 
+                            Member Type          DATA                          Variables             1 
+                            Engine               V9                            Indexes               0 
+                            Created              05/21/2020 15:47:27           Observation Length    8 
+                            Last Modified        05/21/2020 15:47:27           Deleted Observations  0 
+                            Protection                                         Compressed            NO
+                            Data Set Type                                      Sorted                NO
+                            Label                                                                      
+                            Data Representation  WINDOWS_64                                            
+                            Encoding             wlatin1  Western (Windows)                            
+
+
+                                                 Engine/Host Dependent Information
+
+ Data Set Page Size          65536                                                                                                
+ Number of Data Set Pages    1                                                                                                    
+ First Data Page             1                                                                                                    
+ Max Obs per Page            8063                                                                                                 
+ Obs in First Data Page      1                                                                                                    
+ Number of Data Set Repairs  0                                                                                                    
+ ExtendObsCounter            YES                                                                                                  
+ Filename                    C:\Users\mhudson\AppData\Local\Temp\SEG15320\SAS Temporary Files\_TD10112_MHUDSON_\Prc2\test.sas7bdat
+ Release Created             9.0401M3                                                                                             
+ Host Created                X64_8PRO                                                                                             
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                                    #    Variable    Type    Len
+
+                                                    1    x           Num       8
+                                                                                                    12:37 Thursday, May 21, 2020   7
+
+                                                       The CONTENTS Procedure
+
+                            Data Set Name        WORK.TEST2                    Observations          1 
+                            Member Type          DATA                          Variables             1 
+                            Engine               V9                            Indexes               0 
+                            Created              05/21/2020 15:47:27           Observation Length    8 
+                            Last Modified        05/21/2020 15:47:27           Deleted Observations  0 
+                            Protection                                         Compressed            NO
+                            Data Set Type                                      Sorted                NO
+                            Label                                                                      
+                            Data Representation  WINDOWS_64                                            
+                            Encoding             wlatin1  Western (Windows)                            
+
+
+                                                 Engine/Host Dependent Information
+
+ Data Set Page Size          65536                                                                                                 
+ Number of Data Set Pages    1                                                                                                     
+ First Data Page             1                                                                                                     
+ Max Obs per Page            8063                                                                                                  
+ Obs in First Data Page      1                                                                                                     
+ Number of Data Set Repairs  0                                                                                                     
+ ExtendObsCounter            YES                                                                                                   
+ Filename                    C:\Users\mhudson\AppData\Local\Temp\SEG15320\SAS Temporary Files\_TD10112_MHUDSON_\Prc2\test2.sas7bdat
+ Release Created             9.0401M3                                                                                              
+ Host Created                X64_8PRO                                                                                              
+
+
+                                             Alphabetic List of Variables and Attributes
+ 
+                                              #    Variable    Type    Len    Informat
+
+                                              1    x           Num       8    8.2     
